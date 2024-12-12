@@ -1,18 +1,10 @@
 <script setup>
-
+import Nav from './components/Nav.vue';
 </script>
 
 <template>
   <header>
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
-    </div>
+    <Nav />
   </header>
 
   <RouterView />
