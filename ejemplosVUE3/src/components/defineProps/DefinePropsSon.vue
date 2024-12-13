@@ -1,7 +1,15 @@
 <script setup>
-defineProps(['title']);
+import { defineProps } from 'vue';
+
+defineProps({
+  title: String,
+  message: String,
+});
 </script>
 
 <template>
-  <h1>{{ title }}</h1>
+  <div>
+    <h3>{{ title }}</h3>
+    <p>{{ message }}</p>
+  </div>
 </template>

@@ -1,0 +1,13 @@
+#nav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#routerView {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25rem;
+    gap: 1rem;
+}

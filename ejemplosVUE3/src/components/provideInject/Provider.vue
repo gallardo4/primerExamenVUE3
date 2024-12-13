@@ -2,7 +2,7 @@
 import { provide } from 'vue';
 import Injector from './Injector.vue';
 
-const message = 'Hello from Ancestor';
+const message = 'This message is provided by de provider (Provider.vue) and shown by the injector (Injector.vue)';
 provide('sharedMessage', message);
 </script>
 

@@ -1,7 +1,7 @@
 <script setup>
-import DefineProps from '@/components/defineProps/DefinePropsSon.vue';
+import DefinePropsDad from '@/components/defineProps/DefinePropsDad.vue';
 </script>
 
 <template>
-    <DefineProps />
+    <DefinePropsDad />
 </template>

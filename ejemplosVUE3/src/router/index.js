@@ -5,11 +5,6 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      name: 'home',
-      component: () => import('@/views/HomeView.vue')
-    },
-    {
-      path: '/provideInject',
       name: 'provideInject',
       component: () => import('@/views/ProvideInjectView.vue')
     },
@@ -22,6 +17,11 @@ const router = createRouter({
       path: '/defineProps',
       name: 'defineProps',
       component: () => import('@/views/DefinePropsView.vue')
+    },
+    {
+      path: '/defineEmits',
+      name: 'defineEmits',
+      component: () => import('@/views/DefineEmitsView.vue')
     }
   ],
 })
