@@ -79,13 +79,13 @@ defineProps(['title']);
 
 **Componente Padre:**
 ```vue
-<template>
-  <ChildComponent title="Hello from Parent" />
-</template>
-
 <script setup>
 import ChildComponent from './ChildComponent.vue';
 </script>
+
+<template>
+  <ChildComponent title="Hello from Parent" />
+</template>
 ```
 
 ---
